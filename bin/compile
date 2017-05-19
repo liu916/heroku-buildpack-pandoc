@@ -7,7 +7,7 @@ indent() {
 echo "-----> Installing pandoc"
 BUILD_DIR=$1
 VENDOR_DIR="vendor"
-PANDOC_DOWNLOAD_URL="https://www.dropbox.com/s/5iv2z4hs3te19xm/pandoc"
+PANDOC_DOWNLOAD_URL="https://github.com/liu916/heroku-buildpack-pandoc/releases/download/0.1/pandoc"
 
 echo "PANDOC_DOWNLOAD_URL = " $PANDOC_DOWNLOAD_URL | indent
 
